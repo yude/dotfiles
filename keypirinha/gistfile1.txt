@@ -1,0 +1,4506 @@
+#
+# Keypirinha personally modified configuration file (by @yudete)
+# You can take a look at help @ http://keypirinha.com/packages/internal.html
+# 
+[app]
+hotkey_run = Alt+Space
+launch_at_startup = yes
+write_log_file = no
+ignored_packages = Bookmarks, FileZilla, PuTTY, TaskSwitcher, WinSCP, URL, WebSearch, WebSuggest, Everything, FileBrowser, GoogleTranslate, Apps, ControlPanel, Winamp, String, MyIP, Currency, URLShortener
+
+[gui]
+geometry = auto
+theme = DarkSpotlight
+
+[theme/DarkSpotlight]
+font_face = Noto Sans CJK JP Regular
+
+font_small_size = 9
+font_small_style = cleartype
+font_snormal_size = 12
+font_snormal_style = cleartype
+font_normal_size = 14
+font_normal_style = cleartype
+font_large_size = 22
+font_large_style = cleartype
+
+mono_font_face = Fira Code, Consolas
+
+color_background = #111
+color_foreground = #fff
+color_faded = #888
+
+color_textbox_back = ${color_background}
+
+color_listitem_back = ${color_background}
+color_listitem_title = ${color_foreground}
+color_listitem_desc = #555
+
+color_listitem_selected_back = #116dd6
+color_listitem_selected_title = ${color_foreground}
+color_listitem_selected_desc = #599bd9
+
+opacity_back = 92
+
+layout = list_icon
+
+satellite_pos = topleft
+satellite_size = small
+[Notepad2]
+[Settings]
+SaveSettings=1
+SaveRecentFiles=0
+SaveFindReplace=0
+CloseFind=0
+CloseReplace=0
+NoFindWrap=0
+OpenWithDir=%USERPROFILE%\Desktop
+Favorites=%CSIDL:MYDOCUMENTS%
+PathNameFormat=1
+WordWrap=1
+WordWrapMode=0
+WordWrapIndent=0
+WordWrapSymbols=22
+ShowWordWrapSymbols=0
+MatchBraces=1
+AutoCloseTags=0
+HighlightCurrentLine=0
+AutoIndent=1
+AutoCompleteWords=0
+ShowIndentGuides=0
+TabsAsSpaces=1
+TabIndents=1
+BackspaceUnindents=0
+TabWidth=4
+IndentWidth=0
+MarkLongLines=1
+LongLinesLimit=80
+LongLineMode=1
+ShowSelectionMargin=0
+ShowLineNumbers=1
+ShowCodeFolding=0
+MarkOccurrences=2
+MarkOccurrencesMatchCase=0
+MarkOccurrencesMatchWholeWords=1
+ViewWhiteSpace=0
+ViewEOLs=0
+DefaultEncoding=3
+SkipUnicodeDetection=0
+LoadASCIIasUTF8=0
+LoadNFOasOEM=1
+NoEncodingTags=0
+DefaultEOLMode=0
+FixLineEndings=1
+FixTrailingBlanks=0
+PrintHeader=1
+PrintFooter=0
+PrintColorMode=3
+PrintZoom=10
+PrintMarginLeft=2000
+PrintMarginTop=2000
+PrintMarginRight=2000
+PrintMarginBottom=2000
+SaveBeforeRunningTools=1
+FileWatchingMode=2
+ResetFileWatching=1
+EscFunction=2
+AlwaysOnTop=0
+MinimizeToTray=0
+TransparentMode=0
+ToolbarButtons=1 2 3 4 0 5 6 0 7 8 9 0 10 11 0 12 0 13 14 0 15 16 0 17
+ShowToolbar=1
+ShowStatusbar=1
+EncodingDlgSizeX=256
+EncodingDlgSizeY=262
+RecodeDlgSizeX=256
+RecodeDlgSizeY=262
+FileMRUDlgSizeX=412
+FileMRUDlgSizeY=376
+OpenWithDlgSizeX=384
+OpenWithDlgSizeY=386
+FavoritesDlgSizeX=334
+FavoritesDlgSizeY=316
+FindReplaceDlgPosX=0
+FindReplaceDlgPosY=0
+[Settings2]
+StickyWindowPosition=0
+ReuseWindow=
+SingleFileInstance=1
+MultiFileArg=
+RelativeFileMRU=
+PortableMyDocs=
+DefaultExtension=
+DefaultDirectory=
+FileDlgFilters=
+FileCheckInverval=
+AutoReloadTimeout=
+FileLoadWarningMB=
+OpacityLevel=
+NoFadeHidden=
+ToolbarLook=
+SimpleIndentGuides=
+NoHTMLGuess=
+NoCGIGuess=
+NoFileVariables=
+filebrowser.exe=
+DateTimeShort=
+DateTimeLong=
+TimeStamp=
+WebTemplate1=
+WebTemplate2=
+ShellAppUserModelID=
+ShellUseSystemMRU=
+[Suppressed Messages]
+MsgStickyWinPos=1
+MsgFileSizeWarning=
+MsgConv1=
+MsgConv2=
+MsgConv3=
+MsgNotFound=1
+MsgFindWrap1=1
+MsgFindWrap2=
+MsgReplaceCount=
+[Styles]
+Use2ndDefaultStyle=0
+DefaultScheme=0
+AutoSelect=1
+SelectDlgSizeX=304
+SelectDlgSizeY=324
+[JavaScript]
+FileNameExtensions=js; jse; jsm; json; as; hist
+[Default Text]
+Default Style=font:Courier New; size:9
+[Window]
+1920x1080 PosX=960
+1920x1080 PosY=0
+1920x1080 SizeX=960
+1920x1080 SizeY=1050
+1920x1080 Maximized=0
+[Custom Colors]
+01=#000000
+02=#0A246A
+03=#3A6EA5
+04=#003CE6
+05=#006633
+06=#608020
+07=#648000
+08=#A46000
+09=#FFFFFF
+10=#FFFFE2
+11=#FFF1A8
+12=#FFC000
+13=#FF4000
+14=#C80000
+15=#B000B0
+16=#B28B40
+[Recent Files]
+[Recent Find]
+[Recent Replace]
+
+[main]
+installed_packages = 
+	Keypirinha-Time
+	Keypirinha-Plugin-Kill
+	Keypirinha-PackageControl
+
+
+[main]
+item_label = 画面を切り替え: 
+always_suggest = no
+
+
+[main]
+item_label_format = {site_name} で検索
+enable_predefined_sites = no
+
+
+[main]
+scan_start_menu = no
+scan_desktop = no
+scan_env_path = no
+[provider/Chrome]
+enable = no
+[provider/ChromeCanary]
+enable = no
+[provider/Chromium]
+enable = no
+[provider/Firefox]
+enable = no
+[provider/InternetExplorer]
+enable = no
+[provider/Iridium]
+enable = no
+[provider/Vivaldi]
+enable = no
+
+[main]
+show_recents = no
+
+[profile/VisualNovels]
+activate = yes
+paths =
+    E:\Shortcut\VisualNovels
+filters =
+    + ext: .lnk
+    + ext: .url
+file_item_label = ノベルゲーム: {clean_name}
+[profile/Touhou]
+activate = yes
+paths =
+    E:\Shortcut\Touhou
+filters = + ext: .lnk
+file_item_label = 東方Project: {clean_name}
+
+[profile/Apps]
+activate = yes
+paths =
+    E:\Shortcut\Apps
+filters = + ext: .lnk
+file_item_label = アプリケーション: {clean_name}
+
+[profile/Games]
+activate = yes
+paths =
+    E:\Shortcut\Games
+filters = + ext: .lnk
+file_item_label = ゲーム: {clean_name}
+
+[profile/ssh]
+activate = yes
+paths =
+    E:\Shortcut\ssh
+filters = + ext: .lnk
+file_item_label = ssh: {clean_name}
+[defaults]
+output_lang = ja
+{
+   ".header" : {
+      "creator" : "Keypirinha v2.24 (06cbb5c)",
+      "creator_url" : "http://keypirinha.com/",
+      "format" : 102,
+      "modified" : "2020-05-09T06:18:37+0000",
+      "type" : "history"
+   },
+   "history" : [
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-26T21:27:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-26T21:58:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-26T21:58:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6423599739591295384,
+         "label" : "ノベルゲーム: オトメ＊ドメイン",
+         "time" : "2020-04-26T22:53:12+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-26T23:54:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-04-26T23:55:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16022486994370733465,
+         "label" : "アプリケーション: Oracle VM VirtualBox",
+         "time" : "2020-04-27T00:03:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-27T00:12:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T00:13:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T01:17:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T01:44:35+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3977331426192020324,
+         "label" : "アプリケーション: LINE",
+         "time" : "2020-04-27T01:58:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T03:35:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T03:36:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-27T03:59:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T03:59:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-27T06:01:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5077497923116803916,
+         "label" : "アプリケーション: GlobalProtect",
+         "time" : "2020-04-27T06:12:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-27T06:28:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-04-27T07:08:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T07:40:35+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T08:06:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T08:14:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16022486994370733465,
+         "label" : "アプリケーション: Oracle VM VirtualBox",
+         "time" : "2020-04-27T08:21:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-04-27T08:23:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T08:26:55+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T08:52:41+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T09:33:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T09:33:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-27T09:50:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-27T09:52:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T12:15:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-27T12:36:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T20:39:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-04-27T20:39:28+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T20:39:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T20:44:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3977331426192020324,
+         "label" : "アプリケーション: LINE",
+         "time" : "2020-04-27T22:15:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-04-27T22:19:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7542165457657380789,
+         "label" : "アプリケーション: TVTest",
+         "time" : "2020-04-27T22:26:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-27T22:30:27+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T22:30:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T22:47:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-04-27T22:50:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-27T22:56:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-27T23:20:51+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-04-27T23:53:51+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T00:54:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16520859217699443579,
+         "label" : "アプリケーション: AviUtl",
+         "time" : "2020-04-28T01:05:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-28T01:22:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-04-28T01:48:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-28T01:56:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-04-28T02:22:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2528093452662733327,
+         "label" : "アプリケーション: Keybase",
+         "time" : "2020-04-28T02:33:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-04-28T02:37:37+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-28T03:06:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11404341138991066445,
+         "label" : "ssh: vultr",
+         "time" : "2020-04-28T03:09:44+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-28T03:19:55+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11404341138991066445,
+         "label" : "ssh: vultr",
+         "time" : "2020-04-28T03:27:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11404341138991066445,
+         "label" : "ssh: vultr",
+         "time" : "2020-04-28T03:32:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-04-28T04:02:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-28T04:32:27+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-28T06:03:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-28T07:52:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T07:52:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-28T07:57:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T08:08:12+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T08:22:41+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T09:25:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T09:49:10+0000"
+      },
+      {
+         "action" : null,
+         "item" : 10668204258612926989,
+         "label" : "PackageControl: Update Repository List",
+         "time" : "2020-04-28T09:49:38+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-28T09:49:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T09:59:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T10:01:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-28T10:11:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T10:15:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-28T10:44:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T11:56:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16022486994370733465,
+         "label" : "アプリケーション: Oracle VM VirtualBox",
+         "time" : "2020-04-28T12:02:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T12:22:17+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T12:31:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-28T12:51:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-28T13:07:31+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T13:08:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-04-28T20:32:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T20:32:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-28T20:32:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7460612878216737443,
+         "label" : "アプリケーション: Explorer",
+         "time" : "2020-04-28T20:32:10+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T20:58:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T21:46:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T21:53:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3250244476706499252,
+         "label" : "アプリケーション: Mozilla Thunderbird",
+         "time" : "2020-04-28T22:16:35+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-28T22:29:55+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T22:45:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 4105774858875607776,
+         "label" : "ゲーム: Steam",
+         "time" : "2020-04-28T22:54:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9321814875747794403,
+         "label" : "ゲーム: Origin",
+         "time" : "2020-04-28T22:54:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11955276868204494730,
+         "label" : "Keypirinha: Refresh Catalog",
+         "time" : "2020-04-28T23:22:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-28T23:23:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-28T23:48:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T00:11:10+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-29T00:25:17+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T00:53:44+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T00:53:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T01:00:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T01:50:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T02:51:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T02:58:35+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T03:32:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T03:54:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T04:29:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-29T05:48:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T05:54:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T05:59:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3250244476706499252,
+         "label" : "アプリケーション: Mozilla Thunderbird",
+         "time" : "2020-04-29T06:01:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-04-29T06:01:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T07:09:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T07:18:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3977331426192020324,
+         "label" : "アプリケーション: LINE",
+         "time" : "2020-04-29T07:52:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-29T08:57:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-04-29T09:06:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T09:10:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T09:17:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T09:19:44+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11404341138991066445,
+         "label" : "ssh: vultr",
+         "time" : "2020-04-29T09:20:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-29T09:20:11+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T09:34:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T10:08:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-29T11:55:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-29T11:57:31+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T12:53:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-04-29T12:53:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T12:58:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-29T12:58:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-04-29T13:00:28+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T15:22:35+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T15:28:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T15:31:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-04-29T21:35:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11404341138991066445,
+         "label" : "ssh: vultr",
+         "time" : "2020-04-29T21:35:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-29T21:35:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T21:35:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T22:00:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T22:16:46+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T22:18:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-04-29T22:28:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-29T23:05:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-29T23:06:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T00:40:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-04-30T01:25:37+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T01:26:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T01:30:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T01:32:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-30T01:57:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T02:55:10+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3977331426192020324,
+         "label" : "アプリケーション: LINE",
+         "time" : "2020-04-30T02:56:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-30T04:53:41+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T05:07:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T06:36:39+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-30T06:45:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T06:50:46+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-30T07:26:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-30T08:29:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-30T09:30:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-30T09:57:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-30T09:57:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T10:31:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T10:47:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-30T11:29:55+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-30T11:33:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T11:34:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-30T11:35:05+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16520859217699443579,
+         "label" : "アプリケーション: AviUtl",
+         "time" : "2020-04-30T12:38:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-30T12:46:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-30T12:46:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T13:45:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-04-30T20:58:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3977331426192020324,
+         "label" : "アプリケーション: LINE",
+         "time" : "2020-04-30T20:59:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T20:59:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-04-30T21:20:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-04-30T22:35:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T22:46:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-04-30T23:01:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T23:02:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-04-30T23:17:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-04-30T23:22:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T00:11:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-05-01T00:22:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T01:48:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-01T04:05:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-01T06:13:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16520859217699443579,
+         "label" : "アプリケーション: AviUtl",
+         "time" : "2020-05-01T06:14:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6249656226314141959,
+         "label" : "アプリケーション: Discord",
+         "time" : "2020-05-01T06:22:55+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-01T06:28:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-01T07:05:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T07:27:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3250244476706499252,
+         "label" : "アプリケーション: Mozilla Thunderbird",
+         "time" : "2020-05-01T08:47:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-01T09:49:31+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T09:56:28+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T10:01:17+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T10:49:01+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T10:52:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-05-01T11:19:46+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-01T12:37:11+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T12:37:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-01T12:46:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-01T12:54:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T12:54:39+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T13:02:17+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-01T13:06:46+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T13:33:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T14:01:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-01T21:29:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T21:29:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-01T22:00:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-01T22:01:39+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16458057009811005042,
+         "label" : "アプリケーション: MP3Gain",
+         "time" : "2020-05-01T22:14:53+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-01T22:16:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-05-01T22:55:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 18086734867078108593,
+         "label" : "アプリケーション: Firefox",
+         "time" : "2020-05-01T23:09:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-01T23:29:16+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T00:50:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-02T01:44:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-05-02T01:50:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-05-02T01:51:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3977331426192020324,
+         "label" : "アプリケーション: LINE",
+         "time" : "2020-05-02T02:00:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T02:49:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-02T03:23:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2234300491729708056,
+         "label" : "アプリケーション: CPU-Z",
+         "time" : "2020-05-02T07:21:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-02T07:25:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T08:04:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T08:48:28+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T11:32:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T11:37:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7460612878216737443,
+         "label" : "アプリケーション: Explorer",
+         "time" : "2020-05-02T12:06:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11955276868204494730,
+         "label" : "Keypirinha: Refresh Catalog",
+         "time" : "2020-05-02T12:07:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T12:07:31+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-05-02T13:10:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 18086734867078108593,
+         "label" : "アプリケーション: Firefox",
+         "time" : "2020-05-02T13:11:38+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T13:12:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T13:12:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T13:14:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T13:14:39+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T13:15:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T13:47:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T13:47:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T13:53:37+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T13:57:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13496231292750640639,
+         "label" : "アプリケーション: Brave",
+         "time" : "2020-05-02T14:26:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T14:29:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-02T14:32:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-02T14:35:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-02T14:36:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-02T14:38:28+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-02T14:40:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-02T14:42:41+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T14:54:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-02T15:00:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-02T20:54:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T21:00:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-02T21:16:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T21:19:01+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-02T21:25:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T21:35:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-02T21:39:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-02T21:57:31+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-02T23:54:27+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T00:25:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T01:03:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T01:26:39+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13496231292750640639,
+         "label" : "アプリケーション: Brave",
+         "time" : "2020-05-03T01:49:10+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3250244476706499252,
+         "label" : "アプリケーション: Mozilla Thunderbird",
+         "time" : "2020-05-03T01:49:31+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-03T01:56:41+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T02:20:38+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T03:48:12+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T03:49:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T03:50:31+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T03:51:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T03:54:27+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T03:54:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T04:18:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T04:37:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T06:41:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-03T07:08:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-03T08:02:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T08:23:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T09:10:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T09:31:28+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-03T09:36:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7542165457657380789,
+         "label" : "アプリケーション: TVTest",
+         "time" : "2020-05-03T09:57:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7542165457657380789,
+         "label" : "アプリケーション: TVTest",
+         "time" : "2020-05-03T09:58:11+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-03T10:03:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T10:40:55+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T10:47:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-03T11:01:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3190766963872196046,
+         "label" : "アプリケーション: VLC media player",
+         "time" : "2020-05-03T11:09:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T11:16:10+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-03T11:16:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T11:20:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16458057009811005042,
+         "label" : "アプリケーション: MP3Gain",
+         "time" : "2020-05-03T11:27:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-03T11:27:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T11:27:37+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-03T11:28:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7460612878216737443,
+         "label" : "アプリケーション: Explorer",
+         "time" : "2020-05-03T11:28:41+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-03T11:29:31+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-03T11:38:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16520859217699443579,
+         "label" : "アプリケーション: AviUtl",
+         "time" : "2020-05-03T11:43:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-03T11:43:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T12:24:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3972101454015811535,
+         "label" : "アプリケーション: GeForce Experience",
+         "time" : "2020-05-03T12:43:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-03T22:54:53+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-03T22:54:55+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-03T23:30:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-03T23:30:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-04T00:08:17+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-04T00:09:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T00:52:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-05-04T01:56:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-04T02:52:46+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-04T02:56:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16520859217699443579,
+         "label" : "アプリケーション: AviUtl",
+         "time" : "2020-05-04T02:57:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T03:05:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T03:35:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7460612878216737443,
+         "label" : "アプリケーション: Explorer",
+         "time" : "2020-05-04T04:04:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T04:10:44+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T04:40:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-04T04:50:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16022486994370733465,
+         "label" : "アプリケーション: Oracle VM VirtualBox",
+         "time" : "2020-05-04T05:20:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T06:36:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6041411145305076571,
+         "label" : "ノベルゲーム: 9-nine- ここのつここのかここのいろ.url",
+         "time" : "2020-05-04T09:10:37+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T09:11:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T09:23:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T09:25:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T10:11:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-04T10:50:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7460612878216737443,
+         "label" : "アプリケーション: Explorer",
+         "time" : "2020-05-04T10:51:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11955276868204494730,
+         "label" : "Keypirinha: Refresh Catalog",
+         "time" : "2020-05-04T11:59:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6321370056306926015,
+         "label" : "ゲーム: Grand Theft Auto V",
+         "time" : "2020-05-04T11:59:44+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T12:00:16+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-04T12:01:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-04T12:04:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-04T12:04:38+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3977331426192020324,
+         "label" : "アプリケーション: LINE",
+         "time" : "2020-05-04T12:04:39+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T12:04:41+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-04T12:34:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T12:34:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T12:45:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3972101454015811535,
+         "label" : "アプリケーション: GeForce Experience",
+         "time" : "2020-05-04T13:06:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T13:07:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-04T13:32:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T13:34:05+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T13:40:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T14:19:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T14:22:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5077497923116803916,
+         "label" : "アプリケーション: GlobalProtect",
+         "time" : "2020-05-04T14:52:01+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T14:52:06+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T14:53:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-04T15:05:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T15:06:37+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-04T22:08:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T22:21:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-04T22:21:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-04T22:51:01+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16520859217699443579,
+         "label" : "アプリケーション: AviUtl",
+         "time" : "2020-05-04T22:52:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-04T22:59:12+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16520859217699443579,
+         "label" : "アプリケーション: AviUtl",
+         "time" : "2020-05-05T00:02:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T01:06:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-05T01:07:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T02:05:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T02:09:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T02:16:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14357365367738767817,
+         "label" : "アプリケーション: Control Panel",
+         "time" : "2020-05-05T02:18:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7460612878216737443,
+         "label" : "アプリケーション: Explorer",
+         "time" : "2020-05-05T02:22:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T02:24:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-05T02:28:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T02:30:01+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T02:31:11+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T02:31:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T02:31:53+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-05T02:32:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-05T02:33:10+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T02:34:53+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-05T02:40:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T03:38:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T03:57:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T03:58:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 4105774858875607776,
+         "label" : "ゲーム: Steam",
+         "time" : "2020-05-05T05:14:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 1953685838294984267,
+         "label" : "アプリケーション: paint.net",
+         "time" : "2020-05-05T05:21:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14357365367738767817,
+         "label" : "アプリケーション: Control Panel",
+         "time" : "2020-05-05T05:47:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T05:51:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7460612878216737443,
+         "label" : "アプリケーション: Explorer",
+         "time" : "2020-05-05T05:55:24+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6321102074057229133,
+         "label" : "アプリケーション: HWMonitor",
+         "time" : "2020-05-05T05:55:38+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11955276868204494730,
+         "label" : "Keypirinha: Refresh Catalog",
+         "time" : "2020-05-05T05:55:38+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T06:03:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-05T06:14:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9321814875747794403,
+         "label" : "ゲーム: Origin",
+         "time" : "2020-05-05T06:27:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-05T06:47:46+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11404341138991066445,
+         "label" : "ssh: vultr",
+         "time" : "2020-05-05T06:47:51+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T07:40:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-05-05T07:51:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T08:47:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-05T09:03:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-05T09:26:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T09:29:38+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6321370056306926015,
+         "label" : "ゲーム: Grand Theft Auto V",
+         "time" : "2020-05-05T09:59:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14357365367738767817,
+         "label" : "アプリケーション: Control Panel",
+         "time" : "2020-05-05T10:10:11+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-05-05T10:41:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T10:58:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-05T11:00:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-05T19:40:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T19:41:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-05T20:28:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-05T22:47:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-05-05T23:03:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T23:12:44+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-05T23:32:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-05T23:59:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-06T02:47:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T04:45:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T04:46:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T04:56:52+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-06T05:07:44+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-06T05:15:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T05:18:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-06T05:21:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-06T05:22:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T05:24:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-06T05:27:13+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-06T05:49:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T05:58:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-06T07:24:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11955276868204494730,
+         "label" : "Keypirinha: Refresh Catalog",
+         "time" : "2020-05-06T07:50:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 1118650088634285505,
+         "label" : "アプリケーション: WinSCP",
+         "time" : "2020-05-06T07:50:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T09:02:28+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13496231292750640639,
+         "label" : "アプリケーション: Brave",
+         "time" : "2020-05-06T10:17:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-06T10:52:53+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T13:56:27+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-06T14:00:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-06T14:35:11+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T21:16:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-06T21:17:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-06T22:24:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-06T22:53:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-06T23:16:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-06T23:48:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-06T23:48:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T00:08:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5077497923116803916,
+         "label" : "アプリケーション: GlobalProtect",
+         "time" : "2020-05-07T01:37:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-07T04:25:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-07T04:30:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-05-07T04:40:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T04:45:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-05-07T05:19:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-05-07T05:41:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-07T06:05:39+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T06:19:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T06:52:53+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-07T06:59:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6041411145305076571,
+         "label" : "ノベルゲーム: 9-nine- ここのつここのかここのいろ.url",
+         "time" : "2020-05-07T07:01:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T07:24:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-07T07:25:27+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T07:30:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T07:40:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-07T08:41:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-07T09:00:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-07T09:00:16+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-05-07T09:09:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6423599739591295384,
+         "label" : "ノベルゲーム: オトメ＊ドメイン",
+         "time" : "2020-05-07T09:43:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7460612878216737443,
+         "label" : "アプリケーション: Explorer",
+         "time" : "2020-05-07T09:43:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11955276868204494730,
+         "label" : "Keypirinha: Refresh Catalog",
+         "time" : "2020-05-07T09:43:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6423599739591295384,
+         "label" : "ノベルゲーム: オトメ＊ドメイン",
+         "time" : "2020-05-07T09:43:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T09:44:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6423599739591295384,
+         "label" : "ノベルゲーム: オトメ＊ドメイン",
+         "time" : "2020-05-07T09:45:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T09:45:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-07T09:49:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-07T10:08:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T10:11:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T10:12:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-07T11:37:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T11:55:53+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7460612878216737443,
+         "label" : "アプリケーション: Explorer",
+         "time" : "2020-05-07T11:57:51+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T21:18:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-07T21:18:38+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-07T21:38:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-07T21:38:48+0000"
+      },
+      {
+         "action" : null,
+         "item" : 18174605155498959181,
+         "label" : "東方Project: 東方妖々夢 〜 Perfect Cherry Blossom.",
+         "time" : "2020-05-07T22:29:58+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T22:30:01+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-07T23:15:14+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3250244476706499252,
+         "label" : "アプリケーション: Mozilla Thunderbird",
+         "time" : "2020-05-07T23:22:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11955276868204494730,
+         "label" : "Keypirinha: Refresh Catalog",
+         "time" : "2020-05-07T23:29:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5858622383845192376,
+         "label" : "アプリケーション: Kleopatra",
+         "time" : "2020-05-07T23:29:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14653051967824940871,
+         "label" : "Keypirinha: Configure Package: Time",
+         "time" : "2020-05-07T23:33:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-05-07T23:34:00+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-05-07T23:58:49+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5858622383845192376,
+         "label" : "アプリケーション: Kleopatra",
+         "time" : "2020-05-08T00:01:33+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T00:18:39+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T00:22:43+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11222229870602900473,
+         "label" : "アプリケーション: Microsoft Teams",
+         "time" : "2020-05-08T00:49:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T00:56:55+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16022486994370733465,
+         "label" : "アプリケーション: Oracle VM VirtualBox",
+         "time" : "2020-05-08T01:32:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3250244476706499252,
+         "label" : "アプリケーション: Mozilla Thunderbird",
+         "time" : "2020-05-08T01:41:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16182058969910060645,
+         "label" : "アプリケーション: Zoom",
+         "time" : "2020-05-08T01:51:20+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16460832472105822292,
+         "label" : "アプリケーション: GeekUninstaller",
+         "time" : "2020-05-08T01:58:12+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T02:53:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-08T03:29:12+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16182058969910060645,
+         "label" : "アプリケーション: Zoom",
+         "time" : "2020-05-08T03:54:30+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T03:57:34+0000"
+      },
+      {
+         "action" : null,
+         "item" : 17266898961638285868,
+         "label" : "アプリケーション: Visual Studio 2017",
+         "time" : "2020-05-08T04:01:51+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T04:02:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-05-08T04:05:09+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-08T04:13:01+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-08T04:31:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T04:31:57+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T04:52:27+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-08T05:53:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-08T05:54:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T07:31:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-08T07:34:45+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T08:07:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 11222229870602900473,
+         "label" : "アプリケーション: Microsoft Teams",
+         "time" : "2020-05-08T08:38:54+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16460832472105822292,
+         "label" : "アプリケーション: GeekUninstaller",
+         "time" : "2020-05-08T08:43:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-08T09:05:16+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-08T10:20:29+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T10:21:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T11:41:07+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T11:45:28+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3250244476706499252,
+         "label" : "アプリケーション: Mozilla Thunderbird",
+         "time" : "2020-05-08T11:47:25+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T11:52:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-08T12:03:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T12:03:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-05-08T12:03:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 15339564533540675433,
+         "label" : "アプリケーション: OBS Studio (64bit)",
+         "time" : "2020-05-08T12:03:56+0000"
+      },
+      {
+         "action" : null,
+         "item" : 16824658504495559679,
+         "label" : "アプリケーション: AIMP",
+         "time" : "2020-05-08T12:04:31+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-05-08T12:38:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T12:56:47+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-08T21:41:21+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-08T22:08:40+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5077497923116803916,
+         "label" : "アプリケーション: GlobalProtect",
+         "time" : "2020-05-08T23:22:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5581809563176801492,
+         "label" : "ssh: kamoserver",
+         "time" : "2020-05-08T23:32:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-08T23:57:37+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9857519762919636852,
+         "label" : "アプリケーション: Tweeten",
+         "time" : "2020-05-09T00:09:02+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-09T00:09:03+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-09T00:09:04+0000"
+      },
+      {
+         "action" : null,
+         "item" : 14815109475583617046,
+         "label" : "ssh: hako",
+         "time" : "2020-05-09T00:19:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 2362109525849053721,
+         "label" : "アプリケーション: Chromium",
+         "time" : "2020-05-09T00:46:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3250244476706499252,
+         "label" : "アプリケーション: Mozilla Thunderbird",
+         "time" : "2020-05-09T01:16:39+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9165136862820733847,
+         "label" : "アプリケーション: Outlook",
+         "time" : "2020-05-09T01:17:05+0000"
+      },
+      {
+         "action" : null,
+         "item" : 3250244476706499252,
+         "label" : "アプリケーション: Mozilla Thunderbird",
+         "time" : "2020-05-09T01:24:32+0000"
+      },
+      {
+         "action" : null,
+         "item" : 6249656226314141959,
+         "label" : "アプリケーション: Discord",
+         "time" : "2020-05-09T01:45:08+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-09T02:00:19+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-09T02:20:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 12774978623132935410,
+         "label" : "ゲーム: Minecraft Java Edition",
+         "time" : "2020-05-09T03:18:18+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7006903396070290118,
+         "label" : "ゲーム: osu!",
+         "time" : "2020-05-09T03:36:36+0000"
+      },
+      {
+         "action" : null,
+         "item" : 9975528750389213911,
+         "label" : "アプリケーション: Authy",
+         "time" : "2020-05-09T04:25:22+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7765685619443597085,
+         "label" : "アプリケーション: Spotify",
+         "time" : "2020-05-09T04:59:23+0000"
+      },
+      {
+         "action" : null,
+         "item" : 13496231292750640639,
+         "label" : "アプリケーション: Brave",
+         "time" : "2020-05-09T05:14:50+0000"
+      },
+      {
+         "action" : null,
+         "item" : 5858622383845192376,
+         "label" : "アプリケーション: Kleopatra",
+         "time" : "2020-05-09T05:30:15+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7082891648185200335,
+         "label" : "アプリケーション: Simplenote",
+         "time" : "2020-05-09T06:04:42+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7544475573990267934,
+         "label" : "Keypirinha: Configure",
+         "time" : "2020-05-09T06:18:37+0000"
+      }
+   ],
+   "sets" : {
+      "actions" : [],
+      "items" : [
+         {
+            "args_hint" : "forbidden",
+            "category" : "keyword",
+            "hit_hint" : "noargs",
+            "id" : 7544475573990267934,
+            "label" : "Keypirinha: Configure",
+            "loop_on_suggest" : false,
+            "plugin" : "Internal.About",
+            "short_desc" : "Edit Keypirinha's configuration file(s)",
+            "target" : "app_config"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "reference",
+            "hit_hint" : "noargs",
+            "id" : 14653051967824940871,
+            "label" : "Keypirinha: Configure Package: Time",
+            "loop_on_suggest" : false,
+            "plugin" : "Internal.About",
+            "short_desc" : "Configure Package \"Time\"",
+            "target" : "pack_config Time"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "keyword",
+            "hit_hint" : "noargs",
+            "id" : 11955276868204494730,
+            "label" : "Keypirinha: Refresh Catalog",
+            "loop_on_suggest" : false,
+            "plugin" : "Internal.About",
+            "short_desc" : "Ask all plugins to refresh their catalog",
+            "target" : "refresh_catalog"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "#1001",
+            "hit_hint" : "noargs",
+            "id" : 10668204258612926989,
+            "label" : "PackageControl: Update Repository List",
+            "loop_on_suggest" : false,
+            "plugin" : "PackageControl.PackageControl",
+            "short_desc" : "Updates the list of packages from the repository",
+            "target" : "update_repo"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 14815109475583617046,
+            "label" : "ssh: hako",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\ssh\\hako.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 5581809563176801492,
+            "label" : "ssh: kamoserver",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\ssh\\kamoserver.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 11404341138991066445,
+            "label" : "ssh: vultr",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\ssh\\vultr.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 16824658504495559679,
+            "label" : "アプリケーション: AIMP",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\AIMP.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 9975528750389213911,
+            "label" : "アプリケーション: Authy",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Authy.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 16520859217699443579,
+            "label" : "アプリケーション: AviUtl",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\AviUtl.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 13496231292750640639,
+            "label" : "アプリケーション: Brave",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Brave.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 2362109525849053721,
+            "label" : "アプリケーション: Chromium",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Chromium.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 14357365367738767817,
+            "label" : "アプリケーション: Control Panel",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Control Panel.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 2234300491729708056,
+            "label" : "アプリケーション: CPU-Z",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\CPU-Z.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 6249656226314141959,
+            "label" : "アプリケーション: Discord",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Discord.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 7460612878216737443,
+            "label" : "アプリケーション: Explorer",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Explorer.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 18086734867078108593,
+            "label" : "アプリケーション: Firefox",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Firefox.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 16460832472105822292,
+            "label" : "アプリケーション: GeekUninstaller",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\GeekUninstaller.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 3972101454015811535,
+            "label" : "アプリケーション: GeForce Experience",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\GeForce Experience.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 5077497923116803916,
+            "label" : "アプリケーション: GlobalProtect",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\GlobalProtect.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 6321102074057229133,
+            "label" : "アプリケーション: HWMonitor",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\HWMonitor.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 2528093452662733327,
+            "label" : "アプリケーション: Keybase",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Keybase.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 5858622383845192376,
+            "label" : "アプリケーション: Kleopatra",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Kleopatra.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 3977331426192020324,
+            "label" : "アプリケーション: LINE",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\LINE.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 11222229870602900473,
+            "label" : "アプリケーション: Microsoft Teams",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Microsoft Teams.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 3250244476706499252,
+            "label" : "アプリケーション: Mozilla Thunderbird",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Mozilla Thunderbird.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 16458057009811005042,
+            "label" : "アプリケーション: MP3Gain",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\MP3Gain.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 15339564533540675433,
+            "label" : "アプリケーション: OBS Studio (64bit)",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\OBS Studio (64bit).lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 16022486994370733465,
+            "label" : "アプリケーション: Oracle VM VirtualBox",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Oracle VM VirtualBox.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 9165136862820733847,
+            "label" : "アプリケーション: Outlook",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Outlook.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 1953685838294984267,
+            "label" : "アプリケーション: paint.net",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\paint.net.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 7082891648185200335,
+            "label" : "アプリケーション: Simplenote",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Simplenote.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 7765685619443597085,
+            "label" : "アプリケーション: Spotify",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Spotify.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 7542165457657380789,
+            "label" : "アプリケーション: TVTest",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\TVTest.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 9857519762919636852,
+            "label" : "アプリケーション: Tweeten",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Tweeten.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 17266898961638285868,
+            "label" : "アプリケーション: Visual Studio 2017",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Visual Studio 2017.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 3190766963872196046,
+            "label" : "アプリケーション: VLC media player",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\VLC media player.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 1118650088634285505,
+            "label" : "アプリケーション: WinSCP",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\WinSCP.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 16182058969910060645,
+            "label" : "アプリケーション: Zoom",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Apps\\Zoom.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 6321370056306926015,
+            "label" : "ゲーム: Grand Theft Auto V",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Games\\Grand Theft Auto V.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 12774978623132935410,
+            "label" : "ゲーム: Minecraft Java Edition",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Games\\Minecraft Java Edition.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 9321814875747794403,
+            "label" : "ゲーム: Origin",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Games\\Origin.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 7006903396070290118,
+            "label" : "ゲーム: osu!",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Games\\osu!.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 4105774858875607776,
+            "label" : "ゲーム: Steam",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Games\\Steam.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 6041411145305076571,
+            "label" : "ノベルゲーム: 9-nine- ここのつここのかここのいろ.url",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\VisualNovels\\9-nine- ここのつここのかここのいろ.url"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 6423599739591295384,
+            "label" : "ノベルゲーム: オトメ＊ドメイン",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\VisualNovels\\オトメ＊ドメイン.lnk"
+         },
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 18174605155498959181,
+            "label" : "東方Project: 東方妖々夢 〜 Perfect Cherry Blossom.",
+            "loop_on_suggest" : false,
+            "plugin" : "FilesCatalog.FilesCatalog",
+            "short_desc" : "",
+            "target" : "E:\\Shortcut\\Touhou\\東方妖々夢 〜 Perfect Cherry Blossom..lnk"
+         }
+      ],
+      "terms" : [
+         {
+            "items" : [ 6041411145305076571 ],
+            "search" : "9-nine"
+         },
+         {
+            "items" : [ 16824658504495559679 ],
+            "search" : "a"
+         },
+         {
+            "items" : [ 16824658504495559679 ],
+            "search" : "ai"
+         },
+         {
+            "items" : [ 16824658504495559679 ],
+            "search" : "aimp"
+         },
+         {
+            "items" : [ 9975528750389213911 ],
+            "search" : "au"
+         },
+         {
+            "items" : [ 9975528750389213911 ],
+            "search" : "aut"
+         },
+         {
+            "items" : [ 9975528750389213911 ],
+            "search" : "authy"
+         },
+         {
+            "items" : [ 16520859217699443579 ],
+            "search" : "avi"
+         },
+         {
+            "items" : [ 16520859217699443579 ],
+            "search" : "aviu"
+         },
+         {
+            "items" : [ 16520859217699443579 ],
+            "search" : "aviut"
+         },
+         {
+            "items" : [ 16520859217699443579 ],
+            "search" : "aviutl"
+         },
+         {
+            "items" : [ 13496231292750640639 ],
+            "search" : "brave"
+         },
+         {
+            "items" : [ 2362109525849053721 ],
+            "search" : "c"
+         },
+         {
+            "items" : [ 2362109525849053721 ],
+            "search" : "ch"
+         },
+         {
+            "items" : [ 18174605155498959181 ],
+            "search" : "che"
+         },
+         {
+            "items" : [ 2362109525849053721 ],
+            "search" : "chr"
+         },
+         {
+            "items" : [ 2362109525849053721 ],
+            "search" : "chro"
+         },
+         {
+            "items" : [ 7544475573990267934 ],
+            "search" : "config"
+         },
+         {
+            "items" : [ 14357365367738767817 ],
+            "search" : "cont"
+         },
+         {
+            "items" : [ 14357365367738767817 ],
+            "search" : "contr"
+         },
+         {
+            "items" : [ 2234300491729708056 ],
+            "search" : "cpu"
+         },
+         {
+            "items" : [ 6249656226314141959 ],
+            "search" : "disc"
+         },
+         {
+            "items" : [ 7460612878216737443 ],
+            "search" : "exp"
+         },
+         {
+            "items" : [ 18086734867078108593 ],
+            "search" : "fire"
+         },
+         {
+            "items" : [ 16458057009811005042 ],
+            "search" : "gain"
+         },
+         {
+            "items" : [ 16460832472105822292 ],
+            "search" : "gee"
+         },
+         {
+            "items" : [ 16460832472105822292 ],
+            "search" : "geek"
+         },
+         {
+            "items" : [ 3972101454015811535 ],
+            "search" : "gefo"
+         },
+         {
+            "items" : [ 3972101454015811535 ],
+            "search" : "gefor"
+         },
+         {
+            "items" : [ 5077497923116803916 ],
+            "search" : "glo"
+         },
+         {
+            "items" : [ 5077497923116803916 ],
+            "search" : "glob"
+         },
+         {
+            "items" : [ 6321370056306926015 ],
+            "search" : "grand"
+         },
+         {
+            "items" : [ 6321370056306926015 ],
+            "search" : "gt"
+         },
+         {
+            "items" : [ 14815109475583617046 ],
+            "search" : "ha"
+         },
+         {
+            "items" : [ 14815109475583617046 ],
+            "search" : "hak"
+         },
+         {
+            "items" : [ 14815109475583617046 ],
+            "search" : "hako"
+         },
+         {
+            "items" : [ 2362109525849053721 ],
+            "search" : "hr"
+         },
+         {
+            "items" : [ 6321102074057229133 ],
+            "search" : "hw"
+         },
+         {
+            "items" : [ 5581809563176801492 ],
+            "search" : "kamo"
+         },
+         {
+            "items" : [ 2528093452662733327 ],
+            "search" : "keybase"
+         },
+         {
+            "items" : [ 5858622383845192376 ],
+            "search" : "kle"
+         },
+         {
+            "items" : [ 5858622383845192376 ],
+            "search" : "kleo"
+         },
+         {
+            "items" : [ 3977331426192020324 ],
+            "search" : "l"
+         },
+         {
+            "items" : [ 3977331426192020324 ],
+            "search" : "line"
+         },
+         {
+            "items" : [ 12774978623132935410 ],
+            "search" : "m"
+         },
+         {
+            "items" : [ 12774978623132935410 ],
+            "search" : "m,"
+         },
+         {
+            "items" : [ 12774978623132935410 ],
+            "search" : "mi"
+         },
+         {
+            "items" : [ 12774978623132935410 ],
+            "search" : "mien"
+         },
+         {
+            "items" : [ 12774978623132935410 ],
+            "search" : "min"
+         },
+         {
+            "items" : [ 12774978623132935410 ],
+            "search" : "mine"
+         },
+         {
+            "items" : [ 12774978623132935410 ],
+            "search" : "mne"
+         },
+         {
+            "items" : [ 6041411145305076571 ],
+            "search" : "nine"
+         },
+         {
+            "items" : [ 15339564533540675433 ],
+            "search" : "ob"
+         },
+         {
+            "items" : [ 15339564533540675433 ],
+            "search" : "obs"
+         },
+         {
+            "items" : [ 14653051967824940871 ],
+            "search" : "oiut"
+         },
+         {
+            "items" : [ 9321814875747794403 ],
+            "search" : "origin"
+         },
+         {
+            "items" : [ 7006903396070290118, 15339564533540675433 ],
+            "search" : "os"
+         },
+         {
+            "items" : [ 7006903396070290118 ],
+            "search" : "osu"
+         },
+         {
+            "items" : [ 9165136862820733847 ],
+            "search" : "out"
+         },
+         {
+            "items" : [ 9165136862820733847 ],
+            "search" : "outlo"
+         },
+         {
+            "items" : [ 9165136862820733847 ],
+            "search" : "outloo"
+         },
+         {
+            "items" : [ 1953685838294984267 ],
+            "search" : "paint"
+         },
+         {
+            "items" : [ 10668204258612926989 ],
+            "search" : "psi"
+         },
+         {
+            "items" : [ 11955276868204494730 ],
+            "search" : "ref"
+         },
+         {
+            "items" : [ 7082891648185200335 ],
+            "search" : "simple"
+         },
+         {
+            "items" : [ 7765685619443597085 ],
+            "search" : "spot"
+         },
+         {
+            "items" : [ 7765685619443597085 ],
+            "search" : "spoti"
+         },
+         {
+            "items" : [ 14815109475583617046 ],
+            "search" : "ss"
+         },
+         {
+            "items" : [ 14815109475583617046, 11404341138991066445 ],
+            "search" : "ssh"
+         },
+         {
+            "items" : [ 4105774858875607776 ],
+            "search" : "steam"
+         },
+         {
+            "items" : [ 11222229870602900473 ],
+            "search" : "teams"
+         },
+         {
+            "items" : [ 3250244476706499252 ],
+            "search" : "thun"
+         },
+         {
+            "items" : [ 3250244476706499252 ],
+            "search" : "thund"
+         },
+         {
+            "items" : [ 3250244476706499252 ],
+            "search" : "thunder"
+         },
+         {
+            "items" : [ 7542165457657380789 ],
+            "search" : "tvt"
+         },
+         {
+            "items" : [ 7542165457657380789 ],
+            "search" : "tvte"
+         },
+         {
+            "items" : [ 9857519762919636852 ],
+            "search" : "twe"
+         },
+         {
+            "items" : [ 9857519762919636852 ],
+            "search" : "twee"
+         },
+         {
+            "items" : [ 16022486994370733465 ],
+            "search" : "virt"
+         },
+         {
+            "items" : [ 16022486994370733465 ],
+            "search" : "virtu"
+         },
+         {
+            "items" : [ 16022486994370733465 ],
+            "search" : "virtua"
+         },
+         {
+            "items" : [ 17266898961638285868 ],
+            "search" : "visual"
+         },
+         {
+            "items" : [ 3190766963872196046 ],
+            "search" : "vlc"
+         },
+         {
+            "items" : [ 11404341138991066445 ],
+            "search" : "vul"
+         },
+         {
+            "items" : [ 1118650088634285505 ],
+            "search" : "wins"
+         },
+         {
+            "items" : [ 16182058969910060645 ],
+            "search" : "zoom"
+         },
+         {
+            "items" : [ 6423599739591295384 ],
+            "search" : "オトメ"
+         }
+      ]
+   }
+}
