@@ -18,6 +18,7 @@
 * [EverythingToolbar](https://github.com/stnkl/EverythingToolbar/releases)
 * [TakeOwnershipPro](https://www.top-password.com/take-ownership-pro.html)
 * [Twinkle Tray](https://www.microsoft.com/ja-jp/p/twinkle-tray-brightness-slider/9pljwwsv01lk?rtc=1&activetab=pivot:overviewtab)
+* [MinGW Installation Manager](https://ja.osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
 
 ## 学校
 * [GlobalProtect](http://www.ipc.hiroshima-cu.ac.jp/Public/doc/vpn/win.html)
