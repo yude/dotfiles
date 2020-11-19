@@ -3,5 +3,6 @@
 プログラミング用日本語等幅フォント Cica(シカ)
 * [Koruri](https://github.com/Koruri/Koruri/releases)  
 Japanese TrueType font obtained by mixing M+ FONTS and Open Sans.
-* [Morning Star](https://www.dafont.com/morning-star.font)
-* [Noto Sans JP](https://fonts.google.com/specimen/Noto+Sans+JP)
+* [Morning Star](https://dl.dafont.com/dl/?f=morning_star)
+* [Noto Sans CJK JP](https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKjp-hinted.zip)
+* [Noto Serif CJK JP](https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip)
