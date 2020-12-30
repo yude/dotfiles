@@ -1,4 +1,4 @@
 @echo off
-cd C:\git\setup\display-changer
+cd D:\git\setup\display-changer
 dc2 -configure="vertical.xml"
 exit
