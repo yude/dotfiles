@@ -13,11 +13,7 @@
 * [Wacom CTH-670 ペンタブレット ドライバー](http://cdn.wacom.com/u/productsupport/drivers/win/consumer/pentablet_5.3.5-3.exe)
 * [Restore Windows Photo Viewer to Windows 10](https://www.authorsoft.com/restore-windows-photo-viewer.html)
 * [Tweeten](https://www.microsoft.com/ja-jp/p/tweeten/9nblggh52xbx?rtc=1)
-* [WindowTabs](https://github.com/standard-software/WindowTabs/blob/master/exe/WindowTabs/WindowTabs.exe)
 * [TortoiseGit Language Pack (Japanese)](https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-LanguagePack-2.11.0.0-64bit-ja.msi)
-* [EverythingToolbar](https://github.com/stnkl/EverythingToolbar/releases)
-* [TakeOwnershipPro](https://www.top-password.com/take-ownership-pro.html)
-* [Twinkle Tray](https://www.microsoft.com/ja-jp/p/twinkle-tray-brightness-slider/9pljwwsv01lk?rtc=1&activetab=pivot:overviewtab)
 * [MinGW Installation Manager](https://ja.osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
 
 ## 学校
