@@ -1,3 +1,3 @@
-# [yudejp](https://github.com/yudejp) / setup
+# setup
 
 ![a](https://i.imgur.com/zDnwPxc.png)
