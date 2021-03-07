@@ -33,7 +33,7 @@
             "colorScheme": "One Half Dark",
             "experimental.retroTerminalEffect": false,
             "cursorShape": "underscore",
-            "useAcrylic": true
+            "useAcrylic": false
         },
         "list":
         [
