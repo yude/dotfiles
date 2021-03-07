@@ -87,7 +87,7 @@
         { "command": {"action": "copy", "singleLine": false }, "keys": "ctrl+c" },
         { "command": "paste", "keys": "ctrl+v" },
         { "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+1" },
-        { "command": "closePane", "keys": "ctrl+w" },
+        { "command": "closePane", "keys": "ctrl+shift+w" },
         { "command": "find", "keys": "ctrl+shift+f" },
 
         // Press Alt+Shift+D to open a new pane.
