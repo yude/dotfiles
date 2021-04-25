@@ -15,6 +15,8 @@
 * [Tweeten](https://www.microsoft.com/ja-jp/p/tweeten/9nblggh52xbx?rtc=1)
 * [TortoiseGit Language Pack (Japanese)](https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-LanguagePack-2.11.0.0-64bit-ja.msi)
 * [MinGW Installation Manager](https://ja.osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
+* [audio-band](https://github.com/dsafa/audio-band/releases)
+* [taskbar-stats](https://github.com/openhoangnc/taskbar-stats/releases)
 
 ## 学校
 * [GlobalProtect](http://www.ipc.hiroshima-cu.ac.jp/Public/doc/vpn/win.html)
