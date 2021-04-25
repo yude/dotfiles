@@ -202,13 +202,13 @@ XPosition = 280.0
 YPosition = 14.0
 Anchor = "TopLeft"
 [[Profiles.'Default Profile'.CustomLabelSettings]]
-FontFamily = "Segoe UI"
-FontSize = 14.0
+FontFamily = "Noto Sans CJK JP"
+FontSize = 12.5
 Color = "#FFFFFFFF"
 FormatString = "{song}"
 Alignment = "Right"
 Name = "Song Name"
-ScrollSpeed = 5000
+ScrollSpeed = 10000
 TextOverflow = "Scroll"
 ScrollBehavior = "Always"
 FadeEffect = "OnlyWhenScrolling"
@@ -221,7 +221,7 @@ XPosition = 60.0
 YPosition = -2.0
 Anchor = "TopRight"
 [[Profiles.'Default Profile'.CustomLabelSettings]]
-FontFamily = "Segoe UI"
+FontFamily = "Noto Sans CJK JP"
 FontSize = 12.0
 Color = "#FFAAAAAA"
 FormatString = "{artist}"
