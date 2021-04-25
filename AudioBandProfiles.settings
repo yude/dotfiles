@@ -5,7 +5,7 @@ Version = "3"
 [Profiles.'Default Profile']
 
 [Profiles.'Default Profile'.GeneralSettings]
-Width = 300.0
+Width = 232.0
 Height = 30.0
 BackgroundColor = "#00FFFFFF"
 
@@ -152,9 +152,9 @@ PlaceholderPath = ""
 IsVisible = true
 Width = 30.0
 Height = 30.0
-XPosition = 245.0
+XPosition = 0.0
 YPosition = 0.0
-Anchor = "TopLeft"
+Anchor = "TopRight"
 
 [Profiles.'Default Profile'.AlbumArtPopupSettings]
 IsVisible = true
@@ -215,9 +215,9 @@ FadeEffect = "OnlyWhenScrolling"
 LeftFadeOffset = 0.1
 RightFadeOffset = 0.9
 IsVisible = true
-Width = 240.0
+Width = 200.0
 Height = 20.0
-XPosition = 60.0
+XPosition = 31.0
 YPosition = -2.0
 Anchor = "TopRight"
 [[Profiles.'Default Profile'.CustomLabelSettings]]
@@ -227,15 +227,15 @@ Color = "#FFAAAAAA"
 FormatString = "{artist}"
 Alignment = "Right"
 Name = "Artist"
-ScrollSpeed = 5000
+ScrollSpeed = 10000
 TextOverflow = "Scroll"
 ScrollBehavior = "Always"
 FadeEffect = "OnlyWhenScrolling"
 LeftFadeOffset = 0.1
 RightFadeOffset = 0.9
 IsVisible = true
-Width = 240.0
+Width = 200.0
 Height = 20.0
-XPosition = 60.0
+XPosition = 31.0
 YPosition = 13.0
 Anchor = "TopRight"
