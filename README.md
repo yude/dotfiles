@@ -1,5 +1,5 @@
 # setup
-
+💻 My setup memo (on Windows, macOS)\
 ![My Computer](https://i.imgur.com/jtXHShO.png)
 
 ## License
