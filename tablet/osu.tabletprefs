@@ -13,12 +13,12 @@
   <PenFile type="map">
     <CPLLastApp type="integer">0</CPLLastApp>
     <CPLLastPosition type="map">
-      <X type="integer">660</X>
-      <Y type="integer">287</Y>
+      <X type="integer">-876</X>
+      <Y type="integer">159</Y>
       <Z type="integer">0</Z>
     </CPLLastPosition>
     <CPLLastTabPane type="integer">0</CPLLastTabPane>
-    <CPLOpened type="string">Mon Aug 03 11:48:09 2020</CPLOpened>
+    <CPLOpened type="string">Sun Jun 27 10:45:12 2021</CPLOpened>
     <DisplayAsserts type="bool">false</DisplayAsserts>
     <DisplayBrightness type="integer">6</DisplayBrightness>
     <DriverOn1Off0 type="bool">true</DriverOn1Off0>
@@ -124,7 +124,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-1920</X>
-                            <Y type="integer">-404</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </ScreenOutputArea>
@@ -187,7 +187,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-1920</X>
-                            <Y type="integer">-404</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </ScreenOutputArea>
@@ -250,7 +250,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-1920</X>
-                            <Y type="integer">-404</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </ScreenOutputArea>
@@ -350,7 +350,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-1920</X>
-                            <Y type="integer">-404</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </ScreenOutputArea>
@@ -413,7 +413,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-1920</X>
-                            <Y type="integer">-404</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </ScreenOutputArea>
@@ -476,7 +476,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-1920</X>
-                            <Y type="integer">-404</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </ScreenOutputArea>
@@ -576,7 +576,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-1920</X>
-                            <Y type="integer">-404</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </ScreenOutputArea>
@@ -639,7 +639,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-1920</X>
-                            <Y type="integer">-404</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </ScreenOutputArea>
@@ -702,7 +702,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-1920</X>
-                            <Y type="integer">-404</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </ScreenOutputArea>
@@ -808,7 +808,7 @@
                         </ScreenOutputArea>
                         <SensitivityX type="double">1</SensitivityX>
                         <SensitivityY type="double">1</SensitivityY>
-                        <WhichMonitor type="string">\\?\DISPLAY#BNQ78E8#5&amp;18987a75&amp;0&amp;UID4355#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}</WhichMonitor>
+                        <WhichMonitor type="string">\\?\DISPLAY#BNQ78E8#5&amp;20388a66&amp;0&amp;UID37125#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}</WhichMonitor>
                       </ScreenArea>
                     </ArrayElement>
                     <ArrayElement type="map">
@@ -829,7 +829,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-21647</X>
-                            <Y type="integer">-4555</Y>
+                            <Y type="integer">0</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </OverlapArea>
@@ -871,7 +871,7 @@
                         </ScreenOutputArea>
                         <SensitivityX type="double">1</SensitivityX>
                         <SensitivityY type="double">1</SensitivityY>
-                        <WhichMonitor type="string">\\?\DISPLAY#BNQ78E8#5&amp;18987a75&amp;0&amp;UID4355#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}</WhichMonitor>
+                        <WhichMonitor type="string">\\?\DISPLAY#BNQ78E8#5&amp;20388a66&amp;0&amp;UID37125#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}</WhichMonitor>
                       </ScreenArea>
                     </ArrayElement>
                     <ArrayElement type="map">
@@ -892,7 +892,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">-5487</X>
-                            <Y type="integer">-1154</Y>
+                            <Y type="integer">4820</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </OverlapArea>
@@ -905,7 +905,7 @@
                           </Extent>
                           <Origin type="map">
                             <X type="integer">0</X>
-                            <Y type="integer">0</Y>
+                            <Y type="integer">4820</Y>
                             <Z type="integer">0</Z>
                           </Origin>
                         </TabletInputArea>
@@ -934,7 +934,7 @@
                         </ScreenOutputArea>
                         <SensitivityX type="double">1</SensitivityX>
                         <SensitivityY type="double">1</SensitivityY>
-                        <WhichMonitor type="string">\\?\DISPLAY#BNQ78E8#5&amp;18987a75&amp;0&amp;UID4355#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}</WhichMonitor>
+                        <WhichMonitor type="string">\\?\DISPLAY#BNQ78E8#5&amp;20388a66&amp;0&amp;UID37125#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}</WhichMonitor>
                       </ScreenArea>
                     </ArrayElement>
                   </InputScreenAreaArray>
@@ -1041,7 +1041,7 @@
         </TabletAppTouchFunctions>
         <TabletCommInterface type="map">
           <BTDeviceAddress type="string"/>
-          <CommPort type="string">\\?\HID#VID_056A&amp;PID_00DF&amp;COL02#7&amp;9DBC326&amp;0&amp;0001#{4D1E55B2-F16F-11CF-88CB-001111000030}</CommPort>
+          <CommPort type="string">\\?\HID#VID_056A&amp;PID_00DF&amp;COL02#7&amp;358ADA94&amp;0&amp;0001#{4D1E55B2-F16F-11CF-88CB-001111000030}</CommPort>
         </TabletCommInterface>
         <TabletControlContainerArray type="array">
           <ArrayElement type="map">
@@ -1092,8 +1092,8 @@
               <UpperPressureThreshold type="integer">81</UpperPressureThreshold>
               <Usage type="map">
                 <EAutoErase type="map">
-                  <Count type="integer">146</Count>
-                  <Last type="string">Sat May 30 22:25:26 2020</Last>
+                  <Count type="integer">166</Count>
+                  <Last type="string">Thu Mar 25 11:51:32 2021</Last>
                 </EAutoErase>
               </Usage>
             </TransducerEraserSettings>
@@ -1111,8 +1111,8 @@
                   <Last type="string">Thu May 28 10:22:08 2020</Last>
                 </EButtonPanning>
                 <ENone type="map">
-                  <Count type="integer">375</Count>
-                  <Last type="string">Mon Aug 03 11:50:29 2020</Last>
+                  <Count type="integer">4546</Count>
+                  <Last type="string">Thu Jun 24 09:02:05 2021</Last>
                 </ENone>
               </Usage>
             </TransducerLowerButtonSettings>
@@ -1127,8 +1127,8 @@
               <UpperPressureThreshold type="integer">81</UpperPressureThreshold>
               <Usage type="map">
                 <ELeftClick type="map">
-                  <Count type="integer">11009</Count>
-                  <Last type="string">Mon Aug 03 11:50:30 2020</Last>
+                  <Count type="integer">53341</Count>
+                  <Last type="string">Thu Jun 24 09:04:01 2021</Last>
                 </ELeftClick>
               </Usage>
             </TransducerTipButtonSettings>
@@ -1138,8 +1138,8 @@
               <ButtonName type="string">barrel2</ButtonName>
               <Usage type="map">
                 <ENone type="map">
-                  <Count type="integer">862</Count>
-                  <Last type="string">Mon Aug 03 11:46:28 2020</Last>
+                  <Count type="integer">2759</Count>
+                  <Last type="string">Tue Jun 22 22:35:03 2021</Last>
                 </ENone>
                 <ERightClick type="map">
                   <Count type="integer">32</Count>
@@ -1196,7 +1196,7 @@
           <FilterList type="map">
             <ArbitrationFilter type="map">
               <ArbitrationMode type="integer">0</ArbitrationMode>
-              <ArbitrationState type="bool">false</ArbitrationState>
+              <ArbitrationState type="bool">true</ArbitrationState>
             </ArbitrationFilter>
             <IronwoodRecognizerPipeline type="map">
               <IronwoodBehaviorMachine type="map">
@@ -1209,7 +1209,7 @@
               <PlatformSpeed type="double">0.5</PlatformSpeed>
             </PublisherFilter>
           </FilterList>
-          <HIDInstanceID type="string">\\?\hid#vid_056a&amp;pid_00df&amp;col03#7&amp;9dbc326&amp;0&amp;0002#{4d1e55b2-f16f-11cf-88cb-001111000030}</HIDInstanceID>
+          <HIDInstanceID type="string">\\?\hid#vid_056a&amp;pid_00df&amp;col03#7&amp;358ada94&amp;0&amp;0002#{4d1e55b2-f16f-11cf-88cb-001111000030}</HIDInstanceID>
           <LeftHandedMode type="integer">1</LeftHandedMode>
           <LogicalExtents type="map">
             <x type="integer">2164</x>
