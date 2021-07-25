@@ -17,6 +17,7 @@
 * [MinGW Installation Manager](https://ja.osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
 * [audio-band](https://github.com/dsafa/audio-band/releases)
 * [taskbar-stats](https://github.com/openhoangnc/taskbar-stats/releases)
+* [MacType](https://github.com/snowie2000/mactype/releases/)
 
 ## 学校
 * [GlobalProtect](http://www.ipc.hiroshima-cu.ac.jp/Public/doc/vpn/win.html)
