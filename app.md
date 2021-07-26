@@ -7,7 +7,7 @@
 * [EarTrumpet](https://www.microsoft.com/ja-jp/p/eartrumpet/9nblggh516xp?activetab=pivot:overviewtab)
 * [YAMAHA SYNCROOM](https://syncroom.yamaha.com/play/dl/)
 * [Drawboard PDF](https://www.microsoft.com/ja-jp/p/drawboard-pdf/9wzdncrfhwqt?activetab=pivot:overviewtab)
-* [Spotify](https://www.spotify.com/jp/download/windows/)
+* [Spotify](#) --> Chocolatey でインストール
 * [Wacom CTH-670 ペンタブレット ドライバー](http://cdn.wacom.com/u/productsupport/drivers/win/consumer/pentablet_5.3.5-3.exe)
 * [Restore Windows Photo Viewer to Windows 10](https://www.authorsoft.com/restore-windows-photo-viewer.html)
 * [Tweeten](https://www.microsoft.com/ja-jp/p/tweeten/9nblggh52xbx?rtc=1)
@@ -23,9 +23,9 @@
 * [VMware Horizon Client](#) --> Chocolatey でインストール
 
 ## ゲーム
-* [Steam](https://store.steampowered.com/about/)
-* [Origin](https://www.origin.com/jpn/ja-jp/store/download)
-* [Epic Games Launcher](https://www.epicgames.com/shadowcomplex/download?lang=ja)
+* [Steam](#) --> Chocolatey でインストール
+* [Origin](#) --> Chocolatey でインストール
+* [Epic Games Launcher](#) --> Chocolatey でインストール
 * [osu!](https://osu.ppy.sh/home/download)
 * [Minecraft](https://www.minecraft.net/ja-jp/download)
 * [ソフト電池ランタイムプログラム](http://www.soft-denchi.jp/comdocs/dlguide/index.htm)
