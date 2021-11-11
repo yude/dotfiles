@@ -4,7 +4,7 @@
 	required = true
 	clean = git-lfs clean -- %f
 [user]
-	name = yudete
-	email = yu@yude.moe
+	name = yude
+	email = i@yude.jp
 [color]
 	ui = auto

@@ -5,18 +5,18 @@
 	clean = git-lfs clean -- %f
 [credential "https://github.com"]
 	helper = wincred
-	username = yudete
+	username = yude
 [credential "https://gitlab.com"]
 	helper = wincred
 	username = yude
-[credential "https://git.yude.moe"]
+[credential "https://git.yude.jp"]
 	helper = wincred
 	username = yude
-[credential "https://gitlab.pepepper.cf"]
+[credential "https://git.pepepper.cf"]
 	helper = wincred
 	username = yude
 [user]
-	name = yudete
-	email = yu@yude.moe
+	name = yudejp
+	email = i@yude.jp
 [color]
 	ui = auto
