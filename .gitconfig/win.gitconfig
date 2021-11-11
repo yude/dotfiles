@@ -1,0 +1,22 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[credential "https://github.com"]
+	helper = wincred
+	username = yudete
+[credential "https://gitlab.com"]
+	helper = wincred
+	username = yude
+[credential "https://git.yude.moe"]
+	helper = wincred
+	username = yude
+[credential "https://gitlab.pepepper.cf"]
+	helper = wincred
+	username = yude
+[user]
+	name = yudete
+	email = yu@yude.moe
+[color]
+	ui = auto

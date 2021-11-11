@@ -1,0 +1,11 @@
+# 自動インデント
+set autoindent
+
+# 検索や置換に使われた文字列を次のセッションでも利用できるようにする
+set historylog
+
+# マルチバッファ機能
+set multibuffer
+
+# 滑らかなスクロール
+set smooth
