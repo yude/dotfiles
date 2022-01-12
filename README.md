@@ -1,5 +1,4 @@
-# setup
-💻 My setup memo (on Windows, macOS)\
+# dotfiles
 ![My Computer](https://i.imgur.com/jtXHShO.png)
 
 ## License
