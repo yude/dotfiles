@@ -1,1 +1,0 @@
-reg export HKEY_CURRENT_USER\Software\SimonTatham\PuTTY putty.reg
